@@ -33,7 +33,6 @@ def show_train_example(cls = 'knife'):
             axes[i].set_xticks([])
             axes[i].set_yticks([])
             axes[i].set_title(f'ID: {cls_df.index[i]}')
-        plt.title('Class: {cls}')
         plt.show()
 
 
